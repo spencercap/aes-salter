@@ -9,7 +9,12 @@
 		<div>
 			to encrypt
 		</div>
-		<input v-model="stuff" type="text" placeholder="stuff">
+		<textarea 
+			v-model="stuff" 
+			type="text" 
+			placeholder="stuff"
+			cols="30" rows="10">
+		</textarea>
 	</div>
 	<div>
 		<div>
@@ -32,7 +37,12 @@
 		<div>
 			to decrypt
 		</div>
-		<input v-model="stuff" type="text" placeholder="stuff">
+		<textarea 
+			v-model="stuff" 
+			type="text" 
+			placeholder="stuff"
+			cols="30" rows="10">
+		</textarea>
 	</div>
 	<div>
 		<div>
